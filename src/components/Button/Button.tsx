@@ -1,13 +1,5 @@
 import styled from 'styled-components'
 
-export interface d {
-  onClick: () => void
-}
-
-function testa(d: d) {
-  return 'asdfasdf'
-}
-
 const PrimaryButton = styled.button`
   background-color: #0070f3;
   border: none;
@@ -16,4 +8,4 @@ const PrimaryButton = styled.button`
   font-size: 1em;
 `
 
-export {PrimaryButton, testa}
+export {PrimaryButton}

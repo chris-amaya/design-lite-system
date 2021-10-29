@@ -1,7 +1,11 @@
 {
-  "name": "@chris-amaya/design-system",
-  "version": "0.0.0",
+  "name": "@chris-amaya/dls",
+  "version": "0.0.1",
   "private": false,
+  "author": {
+    "name": "Christian Eduardo Amaya Rivas",
+    "email": "amayarivasc@gmail.com"
+  },
   "main": "lib/components/index.js",
   "types": "lib/components/index.d.ts",
   "repository": {
