@@ -1,7 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-
 import styled from 'styled-components'
+
+export interface d {
+  onClick: () => void
+}
+
+function testa(d: d) {
+  return 'asdfasdf'
+}
 
 const PrimaryButton = styled.button`
   background-color: #0070f3;
@@ -11,4 +16,4 @@ const PrimaryButton = styled.button`
   font-size: 1em;
 `
 
-export {PrimaryButton}
+export {PrimaryButton, testa}
